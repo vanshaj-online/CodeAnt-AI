@@ -4,7 +4,7 @@ export default function RepositoryCard({ repo }) {
   const { name, type, size, status, updatedAt } = repo;
 
   return (
-    <div className={`py-6 hover:bg-gray-50 border-b h-[108px]`}>
+    <div className={`py-6 hover:bg-gray-50 border-b min-h-[108px] cursor-pointer`}>
       <div className="flex items-center justify-between">
         <div className="w-full flex flex-col gap-3 px-6">
           <div className="flex items-center gap-2 flex-wrap">
